@@ -8,6 +8,9 @@ I Used This Features For Structure My App as
 2. HttpClientModule That Help me To Get And Fetch The Data Fron Youtube Api 
 3. Reactive Extention 
 4. Api Key Provided From Youtube v3 Api 
+5. material design with bootsrap 4 for my front end design
+6. @input and @output decorator that help us to insert data and send data
+7. angular component with integration between them according to angular 6 rules
 
 ## User Interface
 
