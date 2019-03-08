@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
+This App Will Help Users To Search For The Specific Vedios From YouTube
+I Used This Features For Structure My App as
+1. Dependency Injection
+2. HttpClientModule That Help me To Get And Fetch The Data Fron Youtube Api 
+3. Reactive Extention 
+4. Api Key Provided From Youtube v3 Api 
+
+## User Interface
+
+![n (1)](https://user-images.githubusercontent.com/29811601/54053639-2a55e080-41e8-11e9-9d87-657b3b191d6b.png)
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
