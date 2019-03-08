@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SearchTracks } from "../../models/search-tracks";
+import { YoutubeService } from "../../services/youtube.service";
 
 @Component({
   selector: 'app-youtubesearch',
@@ -9,7 +10,9 @@ import { SearchTracks } from "../../models/search-tracks";
 export class YoutubesearchComponent implements OnInit {
       results: SearchTracks[];
       loading: boolean;
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }

@@ -1,6 +1,10 @@
-<div class="container-fluid mt-5">
-
-
-
-
+<app-searchbox (loading)="loading = $event" (results)="update($event)"></app-searchbox>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let result of results">
+                <app-searchresult
+                    [result]="result"></app-searchresult>
+        
+        </div>
+    </div>
 </div>

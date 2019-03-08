@@ -18,13 +18,13 @@ export class YoutubeService {
 
    }
    search($query:string):Observable<SearchTracks[]>{
-     let params = [
+     const params:string = [
        `q=${$query}`,
-       `part=snippet`,
        `key=${this.API}`,
+       `part=snippet`,
        `type=video`,
-       `maxResults=20`
-     ].join("@");
+       `maxResults=21`
+     ].join("&");
      let ULRS = `${this.Url}/?${params}`;
      return this.http.get<SearchTracks[]>(ULRS).pipe(
        map((response) => {
