@@ -1,43 +1,18 @@
-# YoutubeApiApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
-
-This App Will Help Users To Search For The Specific Vedios From YouTube
-I Used This Features For Structure My App as
-1. Dependency Injection
-2. HttpClientModule That Help me To Get And Fetch The Data Fron Youtube Api 
-3. Reactive Extention 
-4. Api Key Provided From Youtube v3 Api 
-5. material design with bootsrap 4 for my front end design
-6. @input and @output decorator that help us to insert data and send data
-7. angular component with integration between them according to angular 7 rules
+## The YouTube API App Angular 7
+> The YouTube API App is an Angular application that utilizes the YouTube API v3 to allow users to search for specific videos on YouTube. The project was generated with Angular CLI version 7.3.5 and uses several key features to structure the app. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+## The app's features include:
++ Utilizing Dependency Injection to manage dependencies between components.
++ Making use of the HttpClientModule to retrieve and fetch data from the YouTube API.
++ Implementing Reactive Extension to handle data streams
++ Utilizing an API key provided by the YouTube API v3
++ Using Material Design and Bootstrap 4 for the front-end design
++ Utilizing the @input and @output decorators to pass data between components
++ Creating Angular components that work together seamlessly, in accordance with Angular 7 guidelines
+## The YouTube API App Angular Philosophy:
+> The philosophy behind this app is to demonstrate the ability to use Angular and its features to create a functional application that interacts with an external API. It also aims to be visually appealing with the use of Material Design and Bootstrap 4, and easy to use for the end user.
+In summary, the YouTube API App is an Angular-based application that allows users to search for specific videos on YouTube by utilizing the YouTube API v3. It utilizes various Angular features such as Dependency Injection, HttpClientModule, Reactive Extension, Material Design, and Bootstrap 4. Additionally, it uses @input and @output decorator to pass data between components and following Angular 7 rules to create a seamless integration between them.
 
 ## User Interface
 
 ![n (1)](https://user-images.githubusercontent.com/29811601/54053639-2a55e080-41e8-11e9-9d87-657b3b191d6b.png)
 
-
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
